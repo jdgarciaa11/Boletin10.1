@@ -1,4 +1,4 @@
-package Pizzeria.Enums;
+package EJERCICIO1.Enums;
 
 public enum Estado {
     SERVIDA, PEDIDA

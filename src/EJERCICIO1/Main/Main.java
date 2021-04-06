@@ -1,10 +1,10 @@
-package Pizzeria.Main;
+package EJERCICIO1.Main;
 
-import Pizzeria.Clases.Panini;
-import Pizzeria.Clases.Pizza;
-import Pizzeria.Enums.Descripcion;
-import Pizzeria.Enums.Tamanio;
-import Pizzeria.Enums.Tipo;
+import EJERCICIO1.Clases.Panini;
+import EJERCICIO1.Clases.Pizza;
+import EJERCICIO1.Enums.Descripcion;
+import EJERCICIO1.Enums.Tamanio;
+import EJERCICIO1.Enums.Tipo;
 
 public class Main {
 

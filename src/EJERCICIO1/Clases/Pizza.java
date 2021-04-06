@@ -1,6 +1,6 @@
-package Pizzeria.Clases;
+package EJERCICIO1.Clases;
 
-import Pizzeria.Enums.*;
+import EJERCICIO1.Enums.*;
 
 public class Pizza extends FastFood{
     private Tamanio tamanio;
