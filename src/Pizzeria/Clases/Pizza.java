@@ -29,6 +29,19 @@ public class Pizza extends FastFood{
         return numServidosPizza;
     }
 
+    public void estado() {
+        System.out.println("Estado Pizza"+
+                "\nPedidios: "+numPedidosPizza+
+                "\nServidos: "+numServidosPizza+
+                "\n");
+    }
+
+    @Override
+    public void servir() {
+        super.servir();
+        numServidosPizza++;
+    }
+
     @Override
     public String toString() {
         return "Pizza " +

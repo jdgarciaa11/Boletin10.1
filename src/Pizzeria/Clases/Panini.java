@@ -6,7 +6,7 @@ public class Panini extends FastFood{
     private Boolean doble;
     private Descripcion descripcion;
     private static int numPedidosPanini;
-    private static int numServidosPizza;
+    private static int numServidosPanini;
 
     public Panini(Tipo tipo, Boolean doble, Descripcion descripcion) {
         super(tipo);
@@ -29,6 +29,19 @@ public class Panini extends FastFood{
 
     public void setDescripcion(Descripcion descripcion) {
         this.descripcion = descripcion;
+    }
+
+    public void estado() {
+        System.out.println("Estado Panini"+
+                "\nPedidios: "+numPedidosPanini+
+                "\nServidos: "+numServidosPanini+
+                "\n");
+    }
+
+    @Override
+    public void servir() {
+        super.servir();
+        numServidosPanini++;
     }
 
     @Override

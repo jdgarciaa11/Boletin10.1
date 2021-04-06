@@ -16,12 +16,24 @@ public class Main {
         Panini cuatroQuesosGranada = new Panini(Tipo.CUATRO_QUESO,false, Descripcion.GRANADA);
         Panini margaritaServillaDoble = new Panini(Tipo.MARGARITA,true, Descripcion.SEVILLA);
 
-        margaritaFamiliar.toString();
-        funghiMediana.toString();
-        cuatroQuesosFamiliar.toString();
+        System.out.println(margaritaFamiliar.toString()+"\n");
+        System.out.println(funghiMediana.toString()+"\n");
+        System.out.println(cuatroQuesosFamiliar.toString()+"\n");
 
-        cuatroQuesosGranada.toString();
-        margaritaServillaDoble.toString();
+        System.out.println(cuatroQuesosGranada.toString()+"\n");
+        System.out.println(margaritaServillaDoble.toString()+"\n");
 
+        cuatroQuesosGranada.estado();
+        margaritaFamiliar.estado();
+
+        funghiMediana.servir();
+        cuatroQuesosFamiliar.servir();
+        System.out.println(funghiMediana.toString()+"\n");
+        System.out.println(cuatroQuesosFamiliar.toString()+"\n");
+        cuatroQuesosGranada.servir();
+        System.out.println(cuatroQuesosGranada.toString()+"\n");
+
+        cuatroQuesosGranada.estado();
+        margaritaFamiliar.estado();
     }
 }
