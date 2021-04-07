@@ -3,8 +3,8 @@ package EJERCICIO1.Clases;
 import EJERCICIO1.Enums.*;
 
 public class FastFood {
-    Tipo tipo;
-    Estado estado;
+    protected Tipo tipo;
+    protected Estado estado;
 
     public FastFood(Tipo tipo) {
         this.tipo = tipo;

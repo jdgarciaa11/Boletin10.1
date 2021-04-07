@@ -2,7 +2,7 @@ package EJERCICIO1.Clases;
 
 import EJERCICIO1.Enums.*;
 
-public class Pizza extends FastFood{
+public class  Pizza extends FastFood{
     private Tamanio tamanio;
     private static int numPedidosPizza;
     private static int numServidosPizza;
